@@ -1,5 +1,5 @@
 # The Bounds of Java Newsletter
-## #3 &ndash; Introducing Combinators
+## #3 &ndash; Introducing Combinators &ndash; Part 1
 
 ### Outline
 In this issue of The Bounds of Java Newsletter, we present a few basic functional constructs that every developer should be aware of. We also introduce the concept of combinator, which is of key importance to write useful functional code, though we carefully avoid digging into the intricacies of combinatory logic.
