@@ -11,7 +11,7 @@ class AroundExample {
         System.out.println("----------------------------------");
 
         Function<BigDecimal, String> addTaxDecorated =
-                Around.decorate(this::addTax).with(this::around);
+                Around.decorate(this::addTax, this::around);
 
         String result = addTaxDecorated.apply(new BigDecimal("10000"));
 
